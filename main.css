@@ -1,0 +1,186 @@
+* {
+    font-family: 'Jura', sans-serif;
+}
+
+.fs-main {
+    font-family: 'Electrolize', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+:root {
+    --m-color: #A4DFF9;
+    --s-color: #4092AB;
+    --t-color: #092A4E;
+    --a-color: #913786;
+}
+
+.tx-m {
+    color: var(--m-color) !important;
+}
+
+.tx-s {
+    color: var(--s-color) !important;
+}
+
+.tx-t {
+    color: var(--t-color) !important;
+}
+
+.tx-a {
+    color: var(--a-color) !important;
+}
+
+.bg-m {
+    background-color: var(--m-color) !important;
+}
+
+.bg-s {
+    background-color: var(--s-color) !important;
+}
+
+.bg-t {
+    background-color: var(--t-color) !important;
+}
+
+.bg-main {
+    background: #4092AB;
+    background: linear-gradient(to left, #4092AB 30%, #ff49ea 100%);
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
+.btn-cta {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: var(--m-color);
+    font-family: 'Electrolize', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    position: relative;
+    transition: 0.2s;
+}
+
+
+.top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+}   
+
+.top::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 2px solid var(--s-color);
+    border-left: 2px solid var(--s-color);
+    height: 100%;
+    width: 10%;
+}
+
+.top::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top: 2px solid var(--s-color);
+    border-right: 2px solid var(--s-color);
+    height: 100%;
+    width: 10%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+}   
+
+.bottom::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-bottom: 2px solid var(--s-color);
+    border-left: 2px solid var(--s-color);
+    height: 100%;
+    width: 10%;
+}
+
+.bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 2px solid var(--s-color);
+    border-right: 2px solid var(--s-color);
+    height: 100%;
+    width: 10%;
+}
+
+.circle-data {
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #4092AB, #ff49ea) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+}
+
+.card-category {
+    cursor: pointer;
+    background-color: #0B0A14;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 40vh;
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: start;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: hsla(0,0%,100%,0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--m-color);
+}
+
+.btn-category {
+    width: 36px;
+    height: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: aliceblue;
+    background-color: hsla(0,0%,100%,0);
+}
+
+.bi-heart-fill:hover {
+    color: red !important;
+}   
+
+.border-footer {
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #4092AB, #ff49ea) border-box;
+    border-top: 1px solid transparent;
+}
+
+.ordinaCursore {
+    cursor: pointer;
+}
